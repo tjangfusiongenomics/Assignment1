@@ -1,0 +1,63 @@
+﻿@model IEnumerable<ZenithWebSite.Models.Event>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.EventFromDateAndTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EventToDateAndTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EnteredByUserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreationDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsActive)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Event_EventId)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.EventFromDateAndTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EventToDateAndTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EnteredByUserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreationDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsActive)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Event_EventId)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.EventId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.EventId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.EventId })
+        </td>
+    </tr>
+}
+
+</table>
