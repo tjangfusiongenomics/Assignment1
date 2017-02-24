@@ -48,6 +48,8 @@ C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithWebSite\bin\System.Web.We
 C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithWebSite\bin\System.Web.WebPages.dll
 C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithWebSite\bin\System.Web.WebPages.Razor.dll
 C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithWebSite\bin\WebGrease.dll
+C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithWebSite\bin\ZenithDataLib.dll
+C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithWebSite\bin\ZenithDataLib.pdb
 C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithWebSite\bin\Microsoft.AI.DependencyCollector.xml
 C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithWebSite\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithWebSite\bin\Microsoft.AI.Web.xml
@@ -77,5 +79,6 @@ C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithWebSite\bin\Microsoft.Owi
 C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithWebSite\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithWebSite\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithWebSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithWebSite\obj\Debug\ZenithWebSite.csprojResolveAssemblyReference.cache
 C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithWebSite\obj\Debug\ZenithWebSite.dll
 C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithWebSite\obj\Debug\ZenithWebSite.pdb

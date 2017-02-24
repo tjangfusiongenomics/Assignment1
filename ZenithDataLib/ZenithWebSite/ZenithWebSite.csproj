@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{8A727661-AE72-4BAC-A08E-64EBBE474B54}</ProjectGuid>
+    <ProjectGuid>{C59FD6F6-0F8E-4D46-A1CF-B53FE5EE0C3B}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -81,8 +81,6 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -207,79 +205,22 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\Activity.cs">
-      <DependentUpon>ZenithModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\AspNetRole.cs">
-      <DependentUpon>ZenithModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\AspNetUser.cs">
-      <DependentUpon>ZenithModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\AspNetUserClaim.cs">
-      <DependentUpon>ZenithModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\AspNetUserLogin.cs">
-      <DependentUpon>ZenithModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\C__MigrationHistory.cs">
-      <DependentUpon>ZenithModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Event.cs">
-      <DependentUpon>ZenithModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\ZenithModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ZenithModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\ZenithModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ZenithModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\ZenithModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ZenithModel.edmx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\aspnet-ZenithDataLib-20170222082145.mdf" />
-    <Content Include="App_Data\aspnet-ZenithDataLib-20170222082145_log.ldf">
-      <DependentUpon>aspnet-ZenithDataLib-20170222082145.mdf</DependentUpon>
-    </Content>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Models\ZenithModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ZenithModel.edmx</DependentUpon>
-      <LastGenOutput>ZenithModel.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="Models\ZenithModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ZenithModel.edmx</DependentUpon>
-      <LastGenOutput>ZenithModel.cs</LastGenOutput>
-    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <EntityDeploy Include="Models\ZenithModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>ZenithModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Models\ZenithModel.edmx.diagram">
-      <DependentUpon>ZenithModel.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -293,7 +234,9 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -340,10 +283,7 @@
     <Content Include="Views\Events\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ZenithDataLib\ZenithDataLib.csproj">
-      <Project>{4e6e8a8c-8d5f-428b-92fa-48a1a9937b68}</Project>
-      <Name>ZenithDataLib</Name>
-    </ProjectReference>
+    <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -357,7 +297,10 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <ProjectReference Include="..\ZenithDataLib\ZenithDataLib.csproj">
+      <Project>{4e6e8a8c-8d5f-428b-92fa-48a1a9937b68}</Project>
+      <Name>ZenithDataLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -375,7 +318,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>55069</DevelopmentServerPort>
+          <DevelopmentServerPort>57101</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:50288/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
