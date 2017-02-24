@@ -8,7 +8,6 @@ using System.Web;
 using System.Web.Mvc;
 using ZenithDataLib.Models;
 
-
 namespace ZenithWebSite.Controllers
 {
     public class ActivitiesController : Controller
