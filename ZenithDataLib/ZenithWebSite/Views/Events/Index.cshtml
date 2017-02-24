@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ZenithWebSite.Models.Event>
+﻿@model IEnumerable<ZenithDataLib.Models.Event>
 
 @{
     ViewBag.Title = "Index";
@@ -26,9 +26,6 @@
         <th>
             @Html.DisplayNameFor(model => model.IsActive)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Event_EventId)
-        </th>
         <th></th>
     </tr>
 
@@ -48,9 +45,6 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.IsActive)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Event_EventId)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.EventId }) |

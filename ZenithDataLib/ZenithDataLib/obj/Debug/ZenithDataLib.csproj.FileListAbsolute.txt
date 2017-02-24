@@ -81,3 +81,4 @@ C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithDataLib\obj\Debug\ZenithD
 C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithDataLib\obj\Debug\ZenithDataLib.pdb
 C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithDataLib\obj\Debug\ZenithDataLib.Migrations.IdentityMigrations.InitialCreate.resources
 C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithDataLib\obj\Debug\ZenithDataLib.csproj.GenerateResource.Cache
+C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithDataLib\obj\Debug\ZenithDataLib.csprojResolveAssemblyReference.cache

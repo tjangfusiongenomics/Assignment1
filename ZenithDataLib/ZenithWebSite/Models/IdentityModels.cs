@@ -30,8 +30,8 @@ namespace ZenithWebSite.Models
             return new ApplicationDbContext();
         }
 
-        public System.Data.Entity.DbSet<ZenithWebSite.Models.Activity> Activities { get; set; }
+        public System.Data.Entity.DbSet<ZenithDataLib.Models.Activity> Activities { get; set; }
 
-        public System.Data.Entity.DbSet<ZenithWebSite.Models.Event> Events { get; set; }
+        public System.Data.Entity.DbSet<ZenithDataLib.Models.Event> Events { get; set; }
     }
 }

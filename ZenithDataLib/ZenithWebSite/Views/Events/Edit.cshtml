@@ -1,4 +1,4 @@
-﻿@model ZenithWebSite.Models.Event
+﻿@model ZenithDataLib.Models.Event
 
 @{
     ViewBag.Title = "Edit";
@@ -56,14 +56,6 @@
                     @Html.EditorFor(model => model.IsActive)
                     @Html.ValidationMessageFor(model => model.IsActive, "", new { @class = "text-danger" })
                 </div>
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.Event_EventId, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Event_EventId, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.Event_EventId, "", new { @class = "text-danger" })
             </div>
         </div>
 

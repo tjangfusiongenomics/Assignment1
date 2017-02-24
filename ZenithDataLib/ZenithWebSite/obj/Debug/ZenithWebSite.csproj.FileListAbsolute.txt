@@ -79,4 +79,3 @@ C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithWebSite\bin\Microsoft.Owi
 C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithWebSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithWebSite\obj\Debug\ZenithWebSite.dll
 C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithWebSite\obj\Debug\ZenithWebSite.pdb
-C:\Users\tom\Desktop\ZenithSociety\ZenithDataLib\ZenithWebSite\obj\Debug\ZenithWebSite.csprojResolveAssemblyReference.cache

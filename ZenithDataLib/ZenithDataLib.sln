@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZenithDataLib", "ZenithDataLib\ZenithDataLib.csproj", "{4E6E8A8C-8D5F-428B-92FA-48A1A9937B68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZenithWebSite", "ZenithWebSite\ZenithWebSite.csproj", "{94B26EDB-AD1A-4EAF-82B4-CAA74DB00618}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZenithWebSite", "ZenithWebSite\ZenithWebSite.csproj", "{8A727661-AE72-4BAC-A08E-64EBBE474B54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{4E6E8A8C-8D5F-428B-92FA-48A1A9937B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E6E8A8C-8D5F-428B-92FA-48A1A9937B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E6E8A8C-8D5F-428B-92FA-48A1A9937B68}.Release|Any CPU.Build.0 = Release|Any CPU
-		{94B26EDB-AD1A-4EAF-82B4-CAA74DB00618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94B26EDB-AD1A-4EAF-82B4-CAA74DB00618}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94B26EDB-AD1A-4EAF-82B4-CAA74DB00618}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94B26EDB-AD1A-4EAF-82B4-CAA74DB00618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A727661-AE72-4BAC-A08E-64EBBE474B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A727661-AE72-4BAC-A08E-64EBBE474B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A727661-AE72-4BAC-A08E-64EBBE474B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A727661-AE72-4BAC-A08E-64EBBE474B54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

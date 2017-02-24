@@ -6,7 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using ZenithWebSite.Models;
+using ZenithDataLib.Models;
 
 namespace ZenithWebSite.Controllers
 {
@@ -46,7 +46,7 @@ namespace ZenithWebSite.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "EventId,EventFromDateAndTime,EventToDateAndTime,EnteredByUserName,CreationDate,IsActive,Event_EventId")] Event @event)
+        public ActionResult Create([Bind(Include = "EventId,EventFromDateAndTime,EventToDateAndTime,EnteredByUserName,CreationDate,IsActive")] Event @event)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace ZenithWebSite.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "EventId,EventFromDateAndTime,EventToDateAndTime,EnteredByUserName,CreationDate,IsActive,Event_EventId")] Event @event)
+        public ActionResult Edit([Bind(Include = "EventId,EventFromDateAndTime,EventToDateAndTime,EnteredByUserName,CreationDate,IsActive")] Event @event)
         {
             if (ModelState.IsValid)
             {
